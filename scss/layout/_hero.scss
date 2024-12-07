@@ -3,8 +3,10 @@
     background-position: center 60%;
     background-size: cover;
     height: 70vh;
+    min-height: 450px;
     @media(max-width:479.98px){
         height: 160px;
+        min-height: 160px;
         background: linear-gradient(184deg, rgba(14, 64, 68, 0.00) -28.51%, rgba(14, 64, 68, 0.60) 104.01%), url(./img/hero/hero-img-mobile.jpg) lightgray 0px -81.799px / 100% 192.857% no-repeat;
         background-position: 100% 50%;
     }
