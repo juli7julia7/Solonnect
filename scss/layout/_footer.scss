@@ -81,7 +81,7 @@
         /* 150% */
         transition: all 0.3s ease 0s;
         &:hover{
-            color: var(--brand-color);
+            text-decoration: underline;
         }
     }
 

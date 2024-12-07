@@ -1270,7 +1270,7 @@ details[open] summary {
   transition: all 0.3s ease 0s;
 }
 .menu-footer__link:hover {
-  color: var(--brand-color);
+  text-decoration: underline;
 }
 .menu-footer__button {
   color: #100D0B;
