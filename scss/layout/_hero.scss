@@ -1,0 +1,109 @@
+.hero {
+    background: linear-gradient(184deg, rgba(14, 64, 68, 0.00) -28.51%, #0E4044 104.01%), url(./img/hero/hero-img.jpg) lightgray -390.667px -748.163px / 149.03% 287.415% no-repeat;
+    background-position: center 60%;
+    background-size: cover;
+    height: 70vh;
+    @media(max-width:479.98px){
+        height: 160px;
+        background: linear-gradient(184deg, rgba(14, 64, 68, 0.00) -28.51%, rgba(14, 64, 68, 0.60) 104.01%), url(./img/hero/hero-img-mobile.jpg) lightgray 0px -81.799px / 100% 192.857% no-repeat;
+        background-position: 100% 50%;
+    }
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        max-width: 965px !important;
+        @media(max-width:479.98px){
+            max-width: 343px !important;
+        }
+    }
+
+    &__title {
+        color: #fff;
+        text-align: center;
+        font-family: Lexend;
+        font-size: 72px;
+        font-weight: 600;
+        line-height: 100%;
+        text-transform: capitalize;
+        margin-bottom: 24px;
+        @media(max-width:991.98px){
+            font-size: 60px;
+        }
+        @media(max-width:767.98px){
+            font-size: 50px;
+        }
+        @media(max-width:479.98px){
+            font-size: 24px;
+        }
+    }
+
+    &__text {
+        color: var(--secondary-color);
+        text-align: center;
+        font-family: "Century Gothic";
+        font-size: 28px;
+        line-height: 1.5;
+        margin-bottom: 48px;
+        /* 42/28 */
+        @media(max-width:767.98px){
+            font-size: 24px;
+        }
+        @media(max-width:479.98px){
+            display: none;
+        }
+    }
+
+    &__span {
+        font-weight: 700;
+        font-size: 32px;
+        color: var(--secondary-color);
+        text-align: center;
+        font-family: "Century Gothic";
+        line-height: 1.5;
+        /* 42/28 */
+    }
+
+    &__span-text {
+        font-weight: 700;
+        font-size: 28px;
+        color: var(--secondary-color);
+        text-align: center;
+        font-family: "Century Gothic";
+        line-height: 1.5;
+    }
+
+    &__button {
+        color: #100D0B;
+        font-family: Lexend;
+        font-size: 18px;
+        font-weight: 500;
+        text-align: center;
+        background-color: var(--secondary-color);
+        width: 226px;
+        margin: 0 auto;
+        border-radius: 999px;
+        // padding: 0 28px;
+        line-height: 76px;
+        transition: all 0.3s ease 0s;
+        &:hover{
+            background-color: #0E4044;
+            color: #fff;
+        }
+        @media(max-width:991.98px){
+            line-height: 66px;
+        }
+        @media(max-width:767.98px){
+            line-height: 56px;
+        }
+        @media(max-width:478.98px){
+            width: 100px;
+            line-height: 28px;
+            padding: 0;
+            font-size: 10px;
+        }
+    }
+}

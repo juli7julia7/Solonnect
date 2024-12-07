@@ -1,0 +1,60 @@
+@import './base/reset';
+@import url('https://fonts.googleapis.com/css?family=Lexend:regular,500,600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Inter:regular,500&display=swap');
+
+@import './utils/variables';
+@import './layout/header';
+@import './layout/hero';
+@import './components/link-quiz';
+@import './layout/what';
+@import './components/title';
+@import './layout/features';
+@import './layout/how';
+@import './layout/testimonials';
+@import './layout/join';
+@import './layout/faqs';
+@import './layout/footer';
+
+@font-face {
+  font-family: 'Century Gothic';
+  font-display: swap;
+  src: url(./fonts/CenturyGothic.woff2) format("woff2"),
+    url(./fonts/CenturyGothic.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Century Gothic';
+  font-display: swap;
+  src: url(./fonts/CenturyGothic-Bold.woff2) format("woff2"),
+    url(./fonts/CenturyGothic-Bold.woff) format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+body {
+  color: var(--primary-color);
+  font-family: 'Century Gothic';
+  background-color: var(--body-color);
+}
+
+[class*='__container'] {
+  max-width: 1310px;
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.wrapper {
+  position: relative;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.main {
+  flex: 1 1 auto;
+}

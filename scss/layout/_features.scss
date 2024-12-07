@@ -1,0 +1,105 @@
+.features {
+    padding: 104px 0;
+
+    @media(max-width:991.98px) {
+        padding: 90px 0;
+    }
+
+    @media(max-width:767.98px) {
+        padding: 70px 0;
+    }
+
+    @media(max-width:479.98px) {
+        padding: 40px 0;
+    }
+
+    &__container {}
+
+    &__title {}
+
+    &__list {
+        margin-bottom: 96px;
+        display: grid;
+        // grid-template-columns: repeat(auto-fit, minmax(auto, 592px));
+        // justify-content: space-between;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 32px;
+        @media(max-width:991.98px){
+            margin-bottom: 70px;
+        }
+        @media(max-width:767.98px){
+            margin-bottom: 50px;
+            grid-template-columns: 1fr;
+            row-gap: 36px;
+        }
+        @media(max-width:479.98px){
+            margin-bottom: 40px;
+        }
+    }
+
+    &__link {}
+}
+
+.title {}
+
+.list-features {
+
+    &__item {}
+}
+
+.item-features {
+
+    &__icon {
+        text-align: center;
+        margin-bottom: 20px;
+        &>img{
+            @media(max-width:479.98px){
+                width: 24px;
+                height: 24px;
+                // margin: 0 auto 20px;
+            }
+        }
+    }
+
+    &__title {
+        color: var(--primary-color);
+        text-align: center;
+        font-family: Lexend;
+        font-size: 35px;
+        font-weight: 500;
+        line-height: 1;
+        letter-spacing: -0.7px;
+        margin-bottom: 12px;
+        @media(max-width:991.98px){
+            font-size: 30px;
+        }
+        @media(max-width:767.98px){
+            font-size: 26px;
+        }
+        @media(max-width:479.98px){
+            font-size: 16px;
+        }
+    }
+
+    &__text {
+        color: var(--primary-color);
+        text-align: center;
+        font-family: "Century Gothic";
+        font-size: 20px;
+        line-height: 1.5;
+        /* 30px */
+        max-width: 476px;
+        margin: 0 auto;
+        @media(max-width:991.98px){
+            font-size: 18px;
+        }
+        @media(max-width:767.98px){
+            font-size: 16px;
+        }
+        @media(max-width:479.98px){
+            font-size: 14px;
+        }
+    }
+}
+
+.link-quiz {}
