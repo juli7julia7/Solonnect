@@ -119,9 +119,10 @@ body {
 }
 @media (max-width: 479.98px) {
   .header__button {
-    font-size: 10.212px;
-    padding: 7px 12px;
-    min-width: 99px;
+    min-width: 142px;
+    line-height: 42px;
+    padding: 0;
+    font-size: 14px;
     /* 150% */
   }
 }
@@ -225,12 +226,6 @@ body {
     height: 18px;
     position: relative;
     z-index: 999;
-  }
-}
-@media (max-width: 479.98px) {
-  .icon-menu {
-    flex: 0 0 20px;
-    height: 16px;
   }
 }
 .icon-menu > span, .icon-menu::before, .icon-menu::after {
@@ -390,10 +385,10 @@ body {
 }
 @media (max-width: 478.98px) {
   .hero__button {
-    width: 100px;
-    line-height: 28px;
+    width: 142px;
+    line-height: 42px;
     padding: 0;
-    font-size: 10px;
+    font-size: 14px;
   }
 }
 
@@ -426,10 +421,10 @@ body {
 }
 @media (max-width: 478.98px) {
   .link-quiz {
-    width: 100px;
-    line-height: 28px;
+    width: 142px;
+    line-height: 42px;
     padding: 0;
-    font-size: 10px;
+    font-size: 14px;
   }
 }
 
@@ -495,7 +490,7 @@ body {
 }
 @media (max-width: 479.98px) {
   .what__text {
-    font-size: 8px;
+    font-size: 14px;
   }
 }
 .title {
@@ -522,7 +517,7 @@ body {
 }
 @media (max-width: 479.98px) {
   .title {
-    font-size: 18px;
+    font-size: 22px;
     margin-bottom: 32px;
   }
 }
@@ -600,7 +595,7 @@ body {
 }
 @media (max-width: 479.98px) {
   .item-features__title {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 .item-features__text {
@@ -625,7 +620,7 @@ body {
 }
 @media (max-width: 479.98px) {
   .item-features__text {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
@@ -737,7 +732,7 @@ body {
 }
 @media (max-width: 479.98px) {
   .item-how__title {
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 12px;
     margin-top: 20px;
   }
@@ -760,7 +755,7 @@ body {
 }
 @media (max-width: 479.98px) {
   .item-how__text {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 .item-how__img {
@@ -835,7 +830,7 @@ body {
 }
 @media (max-width: 479.98px) {
   .testimonials__text {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 .testimonials__label {
@@ -854,7 +849,7 @@ body {
 }
 @media (max-width: 479.98px) {
   .testimonials__label {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 
@@ -1024,6 +1019,11 @@ body {
   text-decoration: underline;
   /* 150% */
 }
+.sign-up-join__input:focus {
+  border-color: var(--brand-color);
+  box-shadow: 0px 4px 4px 0px var(--brand-color);
+  outline-width: 0;
+}
 .sign-up-join__button {
   border-radius: 999px;
   border: 1px solid #000;
@@ -1083,7 +1083,7 @@ body {
 }
 details {
   display: flex;
-  transition: all 1s ease;
+  transition: all 0.3s ease 0s;
   display: flex;
   flex-direction: column;
 }
@@ -1125,7 +1125,7 @@ details .text {
 }
 @media (max-width: 767.98px) {
   details .text {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
@@ -1138,6 +1138,7 @@ summary {
   justify-content: space-between;
   align-items: center;
   gap: 16px;
+  transition: all 0.3s ease 0s;
 }
 
 summary .bold-text {
@@ -1161,7 +1162,7 @@ summary .bold-text {
 }
 @media (max-width: 479.98px) {
   summary .bold-text {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 
@@ -1303,10 +1304,10 @@ details[open] summary {
 }
 @media (max-width: 478.98px) {
   .menu-footer__button {
-    width: 100px;
-    line-height: 28px;
+    width: 142px;
+    line-height: 42px;
     padding: 0;
-    font-size: 10px;
+    font-size: 14px;
   }
 }
 

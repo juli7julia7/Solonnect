@@ -52,9 +52,10 @@
         }
 
         @media(max-width:479.98px) {
-            font-size: 10.212px;
-            padding: 7px 12px;
-            min-width: 99px;
+            min-width: 142px;
+            line-height: 42px;
+            padding: 0;
+            font-size: 14px;
             /* 150% */
         }
 
@@ -166,8 +167,8 @@
         z-index: 999;
     }
     @media(max-width:479.98px){
-        flex: 0 0 20px;
-        height: 16px;
+        // flex: 0 0 20px;
+        // height: 16px;
     }
 
     &>span,
