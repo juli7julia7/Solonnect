@@ -1161,6 +1161,7 @@ summary .bold-text {
   line-height: 1;
   /* 40px */
   letter-spacing: -0.8px;
+  transition: all 0.3s ease 0s;
 }
 @media (max-width: 991.98px) {
   summary .bold-text {
@@ -1347,6 +1348,58 @@ details[open] summary {
 }
 .social-footer__link:hover {
   transform: scale(1.2);
+}
+
+.hidden {
+  opacity: 0;
+  transition: all 1s;
+  filter: blur(5px);
+  transform: translateX(-100%);
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+.hiddenb {
+  opacity: 0;
+  transition: all 1s;
+  filter: blur(5px);
+  transform: scale(0);
+}
+
+.showb {
+  opacity: 1;
+  filter: blur(0);
+  transform: scale(1);
+}
+
+.hiddenc {
+  opacity: 0;
+  transition: all 1s;
+  filter: blur(5px);
+  transform: translateX(100%);
+}
+
+.showc {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+.hiddend {
+  opacity: 0;
+  transition: all 1s;
+  filter: blur(5px);
+  transform: translateY(100%);
+}
+
+.showd {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateY(0);
 }
 
 @font-face {

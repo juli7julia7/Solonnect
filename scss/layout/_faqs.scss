@@ -1,4 +1,4 @@
-.faqs{
+.faqs {
     padding: 104px 0 208px;
 
     @media(max-width:991.98px) {
@@ -12,9 +12,8 @@
     @media(max-width:479.98px) {
         padding: 40px 0 80;
     }
-    &__container{
 
-    }
+    &__container {}
 }
 
 
@@ -27,15 +26,19 @@ details {
     transition: all 0.3s ease 0s;
     display: flex;
     flex-direction: column;
-    &:not(:last-child){
+
+    &:not(:last-child) {
         margin-bottom: 60px;
-        @media(max-width:991.98px){
+
+        @media(max-width:991.98px) {
             margin-bottom: 50px;
         }
-        @media(max-width:767.98px){
+
+        @media(max-width:767.98px) {
             margin-bottom: 40px;
         }
-        @media(max-width:479.98px){
+
+        @media(max-width:479.98px) {
             margin-bottom: 30px;
         }
     }
@@ -46,14 +49,17 @@ details .text {
     font-family: "Century Gothic";
     font-size: 30px;
     line-height: 1.5;
+
     /* 45px */
-    @media(max-width:991.98px){
+    @media(max-width:991.98px) {
         font-size: 26px;
     }
-    @media(max-width:767.98px){
+
+    @media(max-width:767.98px) {
         font-size: 18px;
     }
-    @media(max-width:767.98px){
+
+    @media(max-width:767.98px) {
         font-size: 16px;
     }
 }
@@ -78,13 +84,17 @@ summary .bold-text {
     line-height: 1;
     /* 40px */
     letter-spacing: -0.8px;
-    @media(max-width:991.98px){
+    transition: all 0.3s ease 0s;
+
+    @media(max-width:991.98px) {
         font-size: 36px;
     }
-    @media(max-width:767.98px){
+
+    @media(max-width:767.98px) {
         font-size: 30px;
     }
-    @media(max-width:479.98px){
+
+    @media(max-width:479.98px) {
         font-size: 18px;
     }
 }

@@ -1,0 +1,56 @@
+.hidden{
+    opacity: 0;
+    transition: all 1s;
+    filter: blur(5px);
+    transform: translateX(-100%);
+ }
+ 
+ .show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+ }
+
+
+ .hiddenb{
+    opacity: 0;
+    transition: all 1s;
+    filter: blur(5px);
+    transform: scale(0);
+ }
+ 
+ .showb{
+    opacity: 1;
+    filter: blur(0);
+    transform: scale(1);
+ }
+
+
+ .hiddenc{
+    opacity: 0;
+    transition: all 1s;
+    filter: blur(5px);
+    transform: translateX(100%);
+ }
+ 
+ .showc{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+ }
+
+
+ .hiddend{
+    opacity: 0;
+    transition: all 1s;
+    filter: blur(5px);
+    transform: translateY(100%);
+ }
+ 
+ .showd{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+ }
+ 
+ 
